@@ -1,0 +1,23 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "to do List api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "nodemon server"
+  },
+  "author": "julakanti",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
